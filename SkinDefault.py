@@ -27,19 +27,19 @@ class Colors:
         Off = Rgb.BLACK
 
     class Scales:
-        Selected = BiLed.GREEN
+        Selected = BiLed.YELLOW
         Unselected = BiLed.GREEN_HALF
         FixedOn = BiLed.AMBER
-        FixedOff = BiLed.AMBER_HALF
+        FixedOff = BiLed.YELLOW_HALF
         Diatonic = BiLed.AMBER
-        Chromatic = BiLed.AMBER_HALF
+        Chromatic = BiLed.YELLOW_HALF
 
     class Instrument:
-        NoteBase = Rgb.ORCHID
-        NoteScale = Rgb.TURQUOISE.shade(1)
+        NoteBase = Rgb.OCEAN
+        NoteScale = Rgb.WHITE
         NoteNotScale = Rgb.BLACK
         NoteInvalid = Rgb.BLACK
-        Feedback = Rgb.LIME
+        Feedback = Rgb.GREEN
         FeedbackRecord = Rgb.RED.shade(1)
         NoteAction = Rgb.RED
 
@@ -75,24 +75,24 @@ class Colors:
         Disabled = Basic.OFF
 
     class DrumGroup:
-        PadSelected = Rgb.MAGENTA
-        PadSelectedNotSoloed = Rgb.MAGENTA.shade(1)
-        PadFilled = Rgb.ORCHID.shade(1)
-        PadEmpty = Rgb.BLUE.shade(2)
-        PadMuted = Rgb.YELLOW.shade(1)
-        PadMutedSelected = Rgb.AMBER
-        PadSoloed = Rgb.OCEAN.highlight()
-        PadSoloedSelected = Rgb.OCEAN
+        PadSelected = Rgb.OCEAN
+        PadSelectedNotSoloed = Rgb.OCEAN
+        PadFilled = Rgb.YELLOW
+        PadEmpty = Rgb.YELLOW.shade(2)
+        PadMuted = Rgb.AMBER.shade(1)
+        PadMutedSelected = Rgb.OCEAN.shade(1)
+        PadSoloed = Rgb.BLUE
+        PadSoloedSelected = Rgb.OCEAN.highlight()
         PadInvisible = Rgb.BLACK
         PadAction = Rgb.RED
 
     class LoopSelector:
-        Playhead = Rgb.MAGENTA
+        Playhead = Rgb.GREEN
         PlayheadRecord = Rgb.RED
-        SelectedPage = Rgb.OCEAN
-        InsideLoopStartBar = Rgb.SPRING.shade(1)
-        InsideLoop = Rgb.SPRING.shade(1)
-        OutsideLoop = Rgb.SPRING.shade(2)
+        SelectedPage = Rgb.YELLOW.highlight()
+        InsideLoopStartBar = Rgb.WHITE
+        InsideLoop = Rgb.WHITE
+        OutsideLoop = Rgb.BLACK
 
     class NoteEditor:
         class Step:
